@@ -69,7 +69,7 @@ ul {
 
 .header-list {
     display: flex;
-    gap: 20px;
+    gap: 40px;
 }
 
 .header-link {
@@ -375,7 +375,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customer-icon {
@@ -480,7 +480,7 @@ ul {
     border: 1px solid var(--color-Cornflower);
     padding: 12px 24px;
     border-radius: 4px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -537,7 +537,7 @@ ul {
     padding: 32px 40px;
 }
 
-.blue-overlay-container:hover .blue-overlay {
+.section-2-porft-list-link:hover .blue-overlay {
     transform: translateY(0);
 }
 
@@ -546,6 +546,7 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
 
 .section-2-porft-list-item {
     flex-basis: calc((100% - 48px) / 3);
@@ -578,8 +579,7 @@ ul {
     height: 100%;
     padding: 20px 0;
     background-color: rgba(46, 47, 66, 0.4);
-    transition: opacity 250ms, visibility 500ms cubic-bezier(0.4, 0, 0.2, 1);
-    pointer-events: all;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal {
@@ -619,7 +619,7 @@ ul {
 }
 
 .modal-icon {
-
+    cursor: pointer;
     width: 8px;
     height: 8px;
 }
