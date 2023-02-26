@@ -602,6 +602,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
     top: 24px;
     right: 24px;
     width: 24px;
@@ -619,7 +620,6 @@ ul {
 }
 
 .modal-icon {
-    cursor: pointer;
     width: 8px;
     height: 8px;
 }
